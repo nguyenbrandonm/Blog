@@ -16,14 +16,14 @@ The **Certified Red Team Professional (CRTP)** certification focuses heavily on 
 
 The course covers techniques related to:
 
-* Active Directory enumeration
-* Privilege escalation
-* Credential abuse
-* Kerberos attacks
-* Delegation
-* ACL abuse
-* Active Directory trust relationships
-* Identifying attack paths through domain environments
+- Active Directory enumeration
+- Privilege escalation
+- Credential abuse
+- Kerberos attacks
+- Delegation
+- ACL abuse
+- Active Directory trust relationships
+- Identifying attack paths through domain environments
 
 Unlike certifications that cover a broad range of penetration testing topics, CRTP stays heavily focused on **Active Directory security and exploitation**.
 
@@ -43,15 +43,15 @@ From an offensive security perspective, I had also completed the **PNPT** and **
 
 Some of the techniques I had previously practiced included:
 
-* LLMNR and NBT-NS poisoning
-* NTLM relay attacks
-* AS-REP roasting
-* Kerberoasting
-* Local administrator password reuse
-* Credential dumping
-* Active Directory ACL abuse
-* Domain trust enumeration
-* BloodHound attack path analysis
+- LLMNR and NBT-NS poisoning
+- NTLM relay attacks
+- AS-REP roasting
+- Kerberoasting
+- Local administrator password reuse
+- Credential dumping
+- Active Directory ACL abuse
+- Domain trust enumeration
+- BloodHound attack path analysis
 
 Because of this, I wasn't completely new to Active Directory attacks going into CRTP.
 
@@ -77,10 +77,10 @@ CRTP forces you to spend time enumerating the environment and understanding what
 
 You still need to understand:
 
-* Why the relationship is exploitable
-* What permissions you currently have
-* What object you can control
-* How that control can be converted into additional access
+- Why the relationship is exploitable
+- What permissions you currently have
+- What object you can control
+- How that control can be converted into additional access
 
 That distinction became one of my biggest takeaways from the course.
 
@@ -100,14 +100,14 @@ The biggest mistake you can make is immediately chasing the first interesting at
 
 My approach was to spend time enumerating the domain and documenting everything I found before committing too heavily to a specific path.
 
-* Users
-* Groups
-* Computers
-* Sessions
-* ACLs
-* Delegation configurations
-* Kerberos-related opportunities
-* Interesting permissions
+- Users
+- Groups
+- Computers
+- Sessions
+- ACLs
+- Delegation configurations
+- Kerberos-related opportunities
+- Interesting permissions
 
 **Everything matters.**
 
@@ -177,11 +177,11 @@ Good documentation also makes writing the final report significantly easier.
 
 I would recommend CRTP to anyone interested in:
 
-* Active Directory penetration testing
-* Internal network penetration testing
-* Red teaming
-* Windows security
-* Understanding Active Directory attack paths
+- Active Directory penetration testing
+- Internal network penetration testing
+- Red teaming
+- Windows security
+- Understanding Active Directory attack paths
 
 If you are completely new to penetration testing, I would recommend building a basic foundation in **Windows, networking, PowerShell, and Active Directory** before attempting the course.
 
@@ -201,9 +201,9 @@ The biggest thing I continue to learn is that offensive security is rarely about
 
 It is about understanding the environment, identifying opportunities, adapting when something fails, and continuing to move forward.
 
-> Things will break.
-> Tools won't cooperate.
-> That's okay.
+> Things will break.  
+> Tools won't cooperate.  
+> That's okay.  
 > **Adapt and keep moving.**
 
 **CRTP down. Back to studying for the OSCP. 🫡**
